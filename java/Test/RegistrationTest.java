@@ -31,7 +31,6 @@ public class RegistrationTest extends BaseConfigTest {
         System.out.println(profilePage.getName2()+"-----get");
         Assert.assertEquals(profilePage.getEmail(),TestValues.NEW_TEST_EMAIL);
 //        Assert.assertEquals(profilePage.getName(),TestValues.NEW_TEST_NAME);
-//        123
         System.out.println("nice");
 
     }
